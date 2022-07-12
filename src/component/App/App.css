@@ -1,0 +1,9 @@
+.Twit-analog {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 800px;
+    min-height: 80vh;
+    border: 3px solid rgb(117, 5, 202);
+    border-radius: 15px;
+}

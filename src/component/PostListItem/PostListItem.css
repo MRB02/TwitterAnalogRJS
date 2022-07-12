@@ -1,0 +1,47 @@
+.app-list-item {
+    border: 1.5px solid #333afa;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+    color: #6f7373;
+    transition: .5s;
+}
+
+.app-list-item-label {
+    cursor: pointer;
+}
+
+.app-list-item button {
+    background-color: white;
+    outline: none;
+    border: 1.5px solid #dadddd;
+    margin: 0 2px;
+}
+
+.important {
+    color: rgb(243, 193, 15);
+}
+
+.important .star {
+    color: rgb(84, 83, 81);
+}
+
+.star {
+    color: rgb(243, 193, 15);
+}
+
+.trash1 {
+    color: #b133fa;
+}
+
+.heart {
+    display: none;
+    margin: 0 5px;
+    color: rgb(233, 9, 9);
+}
+
+.like .heart {
+    display: block;
+    margin: 0 5px;
+    color: rgb(233, 9, 9);
+}
